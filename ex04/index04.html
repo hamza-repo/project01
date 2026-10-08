@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ex04</title>
+    </head>
+    <body>
+        <form>
+            <label for="name" >Full Name:</label>
+            <input type="text" id="name" required><br>
+            <label for="email">email:</label>
+            <input  id="email" required type="email"><br>
+            <label for="password">password:</label>
+            <input  id="password" minlength="8" type="password"><br>
+            <br>
+            <label for="ch1">Choice 1</label>
+            <input type="radio" name ="ch" id="ch1" required><br>
+            <label for="ch2">Choice 2</label>
+            <input type="radio" name ="ch" id="ch2"><br>
+            <label for="ch3">Choice 3</label>
+            <input type="radio" name ="ch" id="ch3"><br>
+
+            <label for="chk">I agree to  Terms and conditions</label>
+            <input type="checkbox" id="chk" required><br>
+            <label for="se">please select an option</label>
+            <select id="se" required>
+                <option disabled selected>Select an option</option>
+                <option> first</option>
+                <option> second</option>
+                <option> third</option>
+            </select>
+            <br>
+            <br>
+            <label for="te">enter your input below:</label><br>
+            <textarea rows="10" cols="30" id="te"  minlength="50" required></textarea>
+            <br>
+            <button type="submit">Register</button>
+
+        </form>
+    </body>
+</html>
